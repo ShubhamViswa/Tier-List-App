@@ -1,0 +1,101 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #242222;
+}
+
+h1, label{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    /* border: 2px solid yellow; */
+    /* background-color: rgba(117, 155, 123, 0.683); */
+}
+
+.tier-list{
+    border: 1px solid black;
+    border-radius: 20px;
+    margin-top: 18px;
+    margin-bottom: 18px;
+    margin-left: 7px;
+    margin-right: 9px;
+    padding-left: 10px;
+    display: flex;
+    background-color: rgba(121, 179, 35, 0.87);
+ }
+
+.tier-list > h1 {
+    border-right: 1px solid black;
+    padding-right: 10px;
+}
+.tier-list-item{
+    /* min-width: 50%; */
+    display: flex;
+}
+
+form label {
+    font-size: 40px;
+    background-color: rgba(169, 214, 105, 0.902);
+    margin: 10px;
+    border: 3px dashed #de9643e8;
+    border-radius: 5px;
+    color: #333;
+    text-align: center;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+    font-weight: bold;
+    letter-spacing: 1px;
+     
+}
+
+form input {
+    text-transform: capitalize;
+    font-size: 40px;
+    background-color: rgba(10, 94, 25, 0.261);
+    margin: 10px;
+    border: 2px solid #000;
+    border-radius: 5px;
+    color: #fefeffeb;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+form button {
+    font-size: 40px;
+    background-color: rgba(214, 105, 105, 0.902);
+    margin: 10px;
+    border: 4px dotted #aef;
+    border-radius: 5px;
+    color: #333;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+
+form label:hover {
+    background-color: rgba(105, 214, 169, 0.902); /* Changes color on hover */
+}
+
+.item-container{
+    width: 80px;
+    height: 85px;
+    border: 2px solid green;
+    margin-top: 10px; 
+    margin-left: 4px; 
+    margin-bottom: 10px;
+}
+
+#non-tier-section{
+    display: flex;
+    gap: 5px; 
+    flex-wrap: wrap;
+
+}
+
+.item-container > img{
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+}
